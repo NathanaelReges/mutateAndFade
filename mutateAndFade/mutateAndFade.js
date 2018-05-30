@@ -16,7 +16,6 @@ scripts['mutateAndFade/mutateAndFade.js'] = async function (ele, fun, {duration 
     let eleClone = undefined
     let previousFun = undefined
     let position = undefined
-    let userStyles = undefined
     
     const previousId = ele.dataset.mutateAndFadeId
     const isAlreadyMutating = previousId != undefined && previousId != ''
